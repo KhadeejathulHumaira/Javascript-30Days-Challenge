@@ -1,0 +1,54 @@
+:root {
+  --secondary-color: #ffc600;
+  --primary-color:rgb(31, 29, 29);
+  --key-color:rgba(3, 3, 3, 0.348);
+  --white:#fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./music.jpg);
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.keys .key {
+  width: 5rem;
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  text-transform: uppercase;
+  background-color: var(--key-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.7s ease;
+  text-shadow: 0 0 0.5rem black;
+  color: var(--white);
+}
+.keys .key kbd {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.keys .key .text {
+  display: block;
+  font-size: 10px;
+  padding-top: 6px;
+  color: var(--secondary-color);
+  letter-spacing: 0.1rem;
+}
+.keys .playing {
+  transform: scale(1.1);
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 1rem var(--secondary-color);
+}/*# sourceMappingURL=style.css.map */
