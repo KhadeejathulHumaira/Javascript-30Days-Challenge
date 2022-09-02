@@ -1,0 +1,33 @@
+:root {
+  --blur:10px;
+  --spacing:10px;
+  --base:#bada55;
+}
+
+body {
+  font-family: "Open sans";
+  background: #193549;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+.controls input {
+  width: 100px;
+}
+
+img {
+  padding: var(--spacing);
+  background-color: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}/*# sourceMappingURL=style.css.map */
