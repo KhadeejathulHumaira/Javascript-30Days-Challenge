@@ -1,7 +1,7 @@
 :root {
   --blur:10px;
-  --spacing:10px;
-  --base:#bada55;
+  --space:10px;
+  --color:#bada55;
 }
 
 body {
@@ -23,11 +23,11 @@ body {
 }
 
 img {
-  padding: var(--spacing);
-  background-color: var(--base);
+  padding: var(--space);
+  background-color: var(--color);
   filter: blur(var(--blur));
 }
 
 .hl {
-  color: var(--base);
+  color: var(--color);
 }/*# sourceMappingURL=style.css.map */
