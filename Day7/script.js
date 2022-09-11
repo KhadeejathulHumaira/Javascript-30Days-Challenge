@@ -30,7 +30,7 @@ const people = [
    // Array.prototype.every() // is everyone 19 or older?
    // checks whether all the elements meets the condition
    // returns true or false
-   const isEvery=people.some(person=>{
+   const isEvery=people.every(person=>{
     const curYear=(new Date()).getFullYear()
     return (curYear-person.year)>=19;
   })
